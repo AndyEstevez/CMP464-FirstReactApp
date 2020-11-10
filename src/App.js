@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './wallpaper.jpg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import ProjectsPage from './components/ProjectsPage';
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
       </header>
 
       <Switch>
-        <Route path="/"></Route>
+        <Route path="/projects"><ProjectsPage/></Route>
         <Route path="/about"></Route>
-        <Route path="/projects"></Route>
+        <Route path="/"></Route>
+
       </Switch>
     </div>
     </Router>
