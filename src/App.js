@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './wallpaper.jpg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +21,14 @@ function App() {
           Check me out
         </a>
       </header>
+
+      <Switch>
+        <Route path="/"></Route>
+        <Route path="/about"></Route>
+        <Route path="/projects"></Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
