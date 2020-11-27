@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './wallpaper.jpg';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectsPage';
 import AboutPage from './components/AboutPage';
@@ -14,7 +13,6 @@ function App() {
   return (
     
     <Router>
-      
       <div className="App">
         <NavbarObject/>
         <Switch>

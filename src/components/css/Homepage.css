@@ -1,0 +1,49 @@
+.img{
+    position: relative;
+    height: 500px;
+    top: 100px;
+}
+
+.fade-appear{
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 100ms linear;
+
+}
+.fade-appear.fade-appear-active{
+    opacity: 0.12;
+    transition: opacity 150ms linear;
+}
+.fade-appear-done{
+    opacity: 0.24;
+    transition: opacity 200ms linear;
+
+}
+.fade-enter{
+    opacity: 0.36;
+    z-index: 1;
+    transition: opacity 250ms linear;
+}
+.fade-enter.fade-enter-active{
+    opacity: 0.48;
+    transition: opacity 300ms linear;
+}
+.fade-enter-done{
+    opacity: 0.60;
+    transition: opacity 350ms linear;
+
+}
+.fade-exit{
+    opacity: 0.72;
+    transition: opacity 400ms linear;
+
+}
+.fade-exit.fade-exit-active{
+    opacity: 0.84;
+    transition: opacity 450ms linear;
+}
+.fade-exit-done{
+    opacity: 1;
+    transition: opacity 500ms linear;
+
+}
