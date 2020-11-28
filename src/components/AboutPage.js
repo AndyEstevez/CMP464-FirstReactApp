@@ -5,8 +5,8 @@ class AboutPage extends Component {
     render() {
         return (
             <div>
-                IN ABOUT PAGE
-                <br></br>
+                <div>About Me: </div>
+                <div>Resume: </div>
                 <button>
                    <Link to="/Resume.pdf" target="_blank" download>Download</Link>
                 </button>
