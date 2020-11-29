@@ -9,7 +9,6 @@ import ContactPage from './components/ContactPage';
 import NavbarObject from './components/Navbar/NavbarObject';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
   return (
     
