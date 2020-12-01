@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectPage/ProjectsPage';
-import SubPage from './components/ProjectPage/SubPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import NavbarObject from './components/Navbar/NavbarObject';
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/about" component={AboutPage}></Route>
           <Route exact path="/contact" component={ContactPage}></Route>
           <Route exact path="/projects" component={ProjectsPage}></Route>
-          <Route exact path="/projects/:id" component={SubPage}></Route>
         </Switch>
       </div>
     </Router>
